@@ -1,0 +1,11 @@
+let var1 = document.getElementById("first");
+var1.className = "red text-dark";
+console.log(var1.classList);
+var1.classList.remove("red");
+var1.classList.add("red");
+var1.classList.toggle("red");
+var1.classList.toggle("red");
+var1.classList.toggle("red");
+var1.classList.toggle("red");
+var1.classList.toggle("red");
+console.log(var1.classList.contains("red"));
